@@ -1,0 +1,22 @@
+var teste = 1;//PRIMEIRA FORMA
+console.log(teste);
+
+nome = 'João'; //MAS A DECLARAÇÃO NESSE FORMATO SE TORNA A VARIAVEL GLOBAL
+//RECOMENDA-SE SEMPRE QUE FOR CRIAR A VARIAVEL COLOCAR O 'VAR'
+
+// var @nome='Joao' //NÃO SE PODE CRIAR VARIAVEIS NESSE FORMATO CONTENDO SIMBOLOS ESPECIAIS, OS UNICOS PERMIDOS SÃO: $ e _
+var $nome='Joao' //NÃO SE PODE CRIAR VARIAVEIS NESSE FORMATO CONTENDO SIMBOLOS ESPECIAIS, OS UNICOS PERMIDOS SÃO: $ e _
+var _nome='Joaozin' //NÃO SE PODE CRIAR VARIAVEIS NESSE FORMATO CONTENDO SIMBOLOS ESPECIAIS, OS UNICOS PERMIDOS SÃO: $ e _
+
+
+console.log(nome);
+console.log($nome);
+console.log(_nome);
+
+
+let testando = 2;//SEGUNDA FORMA
+console.log(testando);
+const testando2 = 3;//TERCEIRA FORMA
+console.log(testando2);
+
+
