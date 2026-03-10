@@ -5,7 +5,7 @@ console.log(title);
 
 //innerHTML
 
-title.innerHTML = 'Título alterado com innerHTML';
+title.innerHTML = '<span>Título alterado com innerHTML</span>';
 
 //textContent
 var title2 = document.querySelector('#title2');
